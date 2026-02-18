@@ -54,6 +54,14 @@ export default function Home() {
           </div>
 
           <div className="rounded-3xl border border-line bg-surface p-6 shadow-[0_10px_40px_rgba(10,20,18,0.06)]">
+            <div className="relative mb-5 h-44 overflow-hidden rounded-2xl border border-line bg-background">
+              <Image
+                src="/products/ls400-cluster/hero.png"
+                alt="LS400-Cluster pre-order product preview"
+                fill
+                className="object-cover"
+              />
+            </div>
             <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">LS400-Cluster</p>
             <p className="mt-2 inline-flex rounded-full border border-line bg-background px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-accent">
               Pre-Order
@@ -107,7 +115,7 @@ export default function Home() {
             </p>
           </div>
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/profile.php?id=61586396952431"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-7 inline-flex rounded-full border border-line bg-background px-6 py-3 text-sm font-semibold transition hover:border-foreground"

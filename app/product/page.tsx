@@ -28,6 +28,14 @@ export default function ProductPage() {
 
         <section className="grid gap-8 md:grid-cols-[1fr_1fr]">
           <div className="rounded-3xl border border-line bg-surface p-8">
+            <div className="relative mb-6 h-56 overflow-hidden rounded-2xl border border-line bg-background">
+              <Image
+                src="/products/ls400-cluster/hero.png"
+                alt="Digital Dashboard for 98-00 LS400"
+                fill
+                className="object-cover"
+              />
+            </div>
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">LS400-Cluster</p>
             <h1 className="mt-3 font-mono text-4xl leading-tight">Digital Dashboard for 98-00 LS400</h1>
             <p className="mt-4 text-muted">
