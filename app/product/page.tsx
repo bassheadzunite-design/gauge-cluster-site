@@ -47,7 +47,8 @@ export default function ProductPage() {
             <p className="mt-3 font-mono text-4xl">$750</p>
             <p className="mt-2 text-sm text-muted">Pre-order price. Final quote may vary by configuration.</p>
             <p className="mt-4 rounded-2xl border border-line bg-background px-4 py-3 text-xs leading-relaxed text-muted">
-              Pre-order disclaimer: This product is currently in pre-order. Expected fulfillment timeframe is 6-8 months.
+              <span className="font-semibold uppercase text-red-600">Pre-Order Disclaimer:</span>{" "}
+              This product is currently in pre-order. Expected to start shipping in SEPT 2026.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a

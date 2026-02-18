@@ -76,7 +76,8 @@ export default function Home() {
               <li>• Factory feel with warning overlays</li>
             </ul>
             <p className="mt-6 rounded-2xl border border-line bg-background px-4 py-3 text-xs leading-relaxed text-muted">
-              Pre-order disclaimer: LS400-Cluster is currently in pre-order. Estimated fulfillment timeline is 6-8 months.
+              <span className="font-semibold uppercase text-red-600">Pre-Order Disclaimer:</span>{" "}
+              This product is currently in pre-order. Expected to start shipping in SEPT 2026.
             </p>
           </div>
         </section>
