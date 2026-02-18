@@ -1,0 +1,39 @@
+slug: example-cluster
+title: Example Custom Gauge Cluster
+status: active
+base_price_usd: 1490
+lead_time: 3-5 weeks
+
+short_description:
+OEM-fit digital cluster with clean UI and configurable display layouts.
+
+key_features:
+- 7-inch anti-glare display
+- Day/night brightness profiles
+- Shift light and warning overlays
+- Vehicle-specific startup splash
+
+compatibility:
+- Vehicle platform(s):
+- ECU / signal type:
+- Notes:
+
+options:
+- Satin black bezel (+$0)
+- Brushed finish (+$90)
+- Custom logo startup (+$60)
+
+what_is_included:
+- Cluster assembly
+- Harness adapter
+- Base calibration profile
+- Remote setup support
+
+notes:
+- Add any install notes, constraints, or customer-facing details here.
+
+images:
+- hero.jpg
+- detail-01.jpg
+- detail-02.jpg
+

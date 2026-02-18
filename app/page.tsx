@@ -1,11 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="grain min-h-screen">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-24 px-6 py-10 md:px-10">
         <header className="flex items-center justify-between border-b border-line pb-5">
-          <p className="font-mono text-sm tracking-[0.2em] text-muted">GAUGE CLUSTER STUDIO</p>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/LOGO.png"
+              alt="Gauge Cluster Studio logo"
+              width={32}
+              height={32}
+              className="rounded-md opacity-80"
+            />
+            <p className="font-mono text-sm tracking-[0.2em] text-muted">GAUGE CLUSTER STUDIO</p>
+          </div>
           <nav className="flex items-center gap-6 text-sm text-muted">
             <Link href="/" className="text-foreground">
               Home
@@ -44,16 +54,22 @@ export default function Home() {
           </div>
 
           <div className="rounded-3xl border border-line bg-surface p-6 shadow-[0_10px_40px_rgba(10,20,18,0.06)]">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">Signature Cluster</p>
-            <p className="mt-3 font-mono text-3xl">$1,490</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">LS400-Cluster</p>
+            <p className="mt-2 inline-flex rounded-full border border-line bg-background px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-accent">
+              Pre-Order
+            </p>
+            <p className="mt-3 font-mono text-3xl">$750</p>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              7-inch bonded display, high-contrast day mode, CAN-ready signal handling, and custom bezel options.
+              Digital dashboard for 98-00 LS400 with OEM-style integration, modern layouts, and real-time vehicle data.
             </p>
             <ul className="mt-6 space-y-2 text-sm">
-              <li>• Plug-and-play harness</li>
-              <li>• Shift-light and warning overlays</li>
-              <li>• Config profile tuned to your build</li>
+              <li>• 14-inch high-contrast display</li>
+              <li>• Plug-and-play harness design</li>
+              <li>• Factory feel with warning overlays</li>
             </ul>
+            <p className="mt-6 rounded-2xl border border-line bg-background px-4 py-3 text-xs leading-relaxed text-muted">
+              Pre-order disclaimer: LS400-Cluster is currently in pre-order. Estimated fulfillment timeline is 6-8 months.
+            </p>
           </div>
         </section>
 
@@ -68,12 +84,36 @@ export default function Home() {
           ))}
         </section>
 
-        <section id="contact" className="rounded-3xl border border-line bg-surface px-6 py-10 md:px-10">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Start Your Build</p>
-          <h2 className="mt-3 max-w-2xl font-mono text-3xl leading-tight md:text-4xl">
-            Tell us your platform and we will spec your cluster package.
+        <section className="rounded-3xl border border-line bg-surface px-6 py-10 md:px-10">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">About Gauge Cluster Studio</p>
+          <h2 className="mt-3 max-w-3xl font-mono text-3xl leading-tight md:text-4xl">
+            Engineered for OEM-Level Integration
           </h2>
-          <p className="mt-4 text-muted">Email: build@gaugeclusterstudio.com</p>
+          <div className="mt-5 max-w-4xl space-y-4 text-sm leading-relaxed text-muted md:text-base">
+            <p>
+              Gauge Cluster Studio develops precision digital instrument clusters for a wide range of vehicles,
+              from modern performance platforms to reimagined classics. Every system is designed with factory-level
+              fitment, electrical integration, and visual harmony in mind.
+            </p>
+            <p>
+              We do not build universal screens. We engineer vehicle-specific solutions that install cleanly, retain
+              OEM functionality where possible, and elevate the driving experience without compromising the character
+              of the car.
+            </p>
+            <p>
+              From enclosure design and mounting geometry to signal integration and UI refinement, each cluster is
+              developed with an uncompromising focus on quality, durability, and finish, built to look and feel like
+              it belonged there from the factory.
+            </p>
+          </div>
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-7 inline-flex rounded-full border border-line bg-background px-6 py-3 text-sm font-semibold transition hover:border-foreground"
+          >
+            Follow on Facebook
+          </a>
         </section>
       </main>
     </div>

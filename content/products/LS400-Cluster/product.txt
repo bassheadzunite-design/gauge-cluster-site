@@ -1,0 +1,61 @@
+slug: LS400-Cluster
+title: Digital Dashboard for 98-00 LS400 PRE-ORDER
+status: active
+base_price_usd: 750
+lead_time: 6 Months
+
+short_description:
+A fully custom digital instrument cluster designed specifically for the 1998–2000 Lexus LS400. This system replaces the factory gauges with a modern, high-resolution display featuring real-time vehicle data, smooth animations, and configurable layouts including modern and sport themes. Built for OEM-level integration, it retains critical vehicle functionality while delivering a clean, contemporary driving experience tailored to the LS400 platform.
+
+key_features:
+- 14-inch high-contrast display
+- Factory feel
+- Warning overlays
+- Plug-and-play harness design
+
+compatibility:
+- Vehicle platform(s): 98-00 USDM LS400
+- Notes: Vehicles Equipped with factory air ride or navigation may be missing some warning indicators.
+
+options:
+
+
+what_is_included:
+- Cluster assembly
+- Vehicle-specific harness
+- Initial calibration profile
+- Remote setup support
+
+notes:
+Product Highlights
+
+OEM-Level Factory Integration
+Engineered specifically for the 1998–2000 LS400, the dashboard integrates directly with factory vehicle signals for accurate RPM, speed, fuel level, temperature, gear position, warning indicators, and more. No standalone ECU or aftermarket management system required.
+
+Plug-and-Play Vehicle Communication
+Designed to communicate seamlessly with the factory network architecture, preserving core vehicle functionality while modernizing the display experience.
+
+Modern Interpretation of Classic Japanese Luxury
+Clean typography, restrained color palettes, and refined motion design inspired by late-90s Lexus craftsmanship—reimagined with a contemporary digital aesthetic.
+
+High-Resolution, Full-Width Digital Display
+Crisp graphics and smooth animations replace aging analog components, delivering a premium, OEM+ look that feels native to the platform.
+
+Multiple Display Modes
+Switch between refined “Luxury” layouts and performance-focused “Sport” configurations with rebalanced gauge emphasis and dynamic visual feedback.
+
+Factory Retention of Critical Indicators
+Maintains original warning lights, turn signals, high beam indicators, and system alerts—modernized visually without sacrificing reliability.
+
+Clean OEM+ Fitment
+Designed to integrate within the original cluster location for a factory-correct appearance with updated technology beneath the surface.
+
+No Additional Operating System or Hardware Required
+All core processing and display functionality are self-contained—no external computers, tablets, or operating systems needed for operation.
+
+Built for the LS400 Platform
+Not a universal tablet conversion. This system is purpose-built around the vehicle’s electrical architecture and driving character.
+
+images:
+- PRE-ORDER image
+
