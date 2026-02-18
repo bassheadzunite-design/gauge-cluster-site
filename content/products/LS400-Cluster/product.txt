@@ -3,6 +3,7 @@ title: Digital Dashboard for 98-00 LS400 PRE-ORDER
 status: active
 base_price_usd: 750
 lead_time: 6 Months
+purchase_url: https://buy.stripe.com/6oU6oB8HKaSg8b64Qm5os00
 
 short_description:
 A fully custom digital instrument cluster designed specifically for the 1998–2000 Lexus LS400. This system replaces the factory gauges with a modern, high-resolution display featuring real-time vehicle data, smooth animations, and configurable layouts including modern and sport themes. Built for OEM-level integration, it retains critical vehicle functionality while delivering a clean, contemporary driving experience tailored to the LS400 platform.
@@ -58,4 +59,3 @@ Not a universal tablet conversion. This system is purpose-built around the vehic
 
 images:
 - PRE-ORDER image
-

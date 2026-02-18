@@ -3,6 +3,7 @@ title: Example Custom Gauge Cluster
 status: active
 base_price_usd: 1490
 lead_time: 3-5 weeks
+purchase_url: https://buy.stripe.com/example
 
 short_description:
 OEM-fit digital cluster with clean UI and configurable display layouts.
@@ -36,4 +37,3 @@ images:
 - hero.jpg
 - detail-01.jpg
 - detail-02.jpg
-

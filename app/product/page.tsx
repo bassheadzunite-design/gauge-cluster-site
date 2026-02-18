@@ -51,10 +51,12 @@ export default function ProductPage() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="mailto:build@gaugeclusterstudio.com"
+                href="https://buy.stripe.com/6oU6oB8HKaSg8b64Qm5os00"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition hover:opacity-90"
               >
-                Request Quote
+                Purchase
               </a>
               <Link
                 href="/"

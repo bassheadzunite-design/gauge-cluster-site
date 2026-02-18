@@ -3,6 +3,7 @@ Product Content Structure
 Purpose:
 - One folder per product.
 - Keep product text and product photos together.
+- Keep a purchase link per product in `product.txt` using `purchase_url:`.
 - Use the same format so content can be reused for site pages.
 
 How to add a new product:
@@ -27,4 +28,3 @@ Supported photo formats:
 Current example:
 - `content/products/example-cluster/product.txt`
 - `content/products/example-cluster/photos/`
-

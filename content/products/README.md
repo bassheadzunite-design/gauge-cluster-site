@@ -32,6 +32,7 @@ Use this folder as the source of truth for product data and images used on the w
 - `status`: use `active` or `draft`
 - `base_price_usd`: number only (no `$`)
 - `lead_time`: customer-facing estimate
+- `purchase_url`: direct checkout/payment link for this product
 - `short_description`: short marketing summary
 - `key_features`: bullet list of core functions
 - `compatibility`: vehicle/platform/signal info
@@ -66,4 +67,3 @@ Tips:
 - listed `images` exist in `photos/`
 - no placeholder text left
 - slug in folder and file match
-
